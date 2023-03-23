@@ -1,0 +1,191 @@
+
+/*      Header      */
+#MainPage{
+    flex-direction: column;
+    margin: 0; padding: 0;
+}
+.Logo{
+    margin-bottom: 30px;
+}
+.Navigation{
+    width: 100%;
+    justify-content: center;
+}
+nav a{
+    display: flex; align-items: center; justify-content: center;
+    border-bottom: 2px rgb(228, 225, 225) solid; 
+}
+nav a:hover{
+    padding-top: 30px;
+    border-top: none; border-bottom: 2px #0065fc solid;
+}
+.Hébergements{
+    width: 50%;
+}
+.Activités{
+    width: 50%;
+}
+.Title{
+   margin-left: 15px;
+}
+
+/*      Search Bar      */
+#ResearchBar{
+    width: 92%; height: 50px;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+.IconMap{
+    height: 50px; width: 50px;
+    border-radius: 15px 0 0 15px;
+}
+.Research{
+    height: 50px; width: 95%;
+    padding-left: 15px;
+}
+.ResearchButton{
+    display: none;
+}
+.ResearchIcon{
+    height: 50px; width: 60px;
+    display: flex; justify-content: center; align-items: center; 
+    background-color: #0065fc;
+    color: white;
+    border-radius: 15px 15px 15px 15px ;
+    cursor: pointer;
+}
+
+/*      Filters     */
+#FilterSec{
+    display: flex; 
+    padding: 8px;
+    margin-left: 10px;
+}
+.Filter{
+    margin-bottom: 10px;
+}
+.InfoCercle{
+    min-width: 25px;
+    margin-left: 15px;
+}
+.Info{
+    align-items: baseline
+}
+
+#MainHéberg{
+    flex-direction: column-reverse;
+    margin-left: 0; margin-right: 0;
+}
+h1{
+    font-size: 25px;
+}
+
+/*      Hébergements        */
+#HébergMars{
+    background-color: white;
+    margin-left: 0; margin-right: 0;
+    padding-left: 0; padding-right: 0;
+    width: 100%;
+}
+.Art{
+    width: 90%;
+}
+.ImgArt{
+    height: 140px;
+    width: 97%;
+    margin-left: 1.5%;
+}
+.Stars1, .Stars2{
+    padding-top: 40px;
+}
+.SecTitle{
+    margin-left: 30px;
+    margin-bottom: 35px;
+}
+
+/*      Populaire       */
+#Popu{
+    width: 100%; height: 550px;
+    margin-left: 0; margin-right: 0;
+    padding-left: 0; padding-right: 0;
+    border-radius: 0;
+}
+.Art2{
+    width: 90%;
+    margin-bottom: 15px;
+}
+.Art2 a{
+    flex-direction: row;
+}
+.ImgArt2{
+    width: 40%;
+    border-radius: 15px 0 0 15px;
+    height: 130px;
+    margin-bottom: 5px;
+}
+
+/*      Activités à Marseille       */
+#ActiMars{
+    width: 100%;
+    margin-top: 20px;
+}
+.ActiMars1{
+    flex-direction: column;
+    align-items: center;
+}
+.ActiP{
+    margin: 10px 0 0 15px;
+}
+.Size2{
+    width: 100%;
+    align-items: center;
+}
+.ArtSize1{
+    background-color: white;
+    box-shadow: 0 0 10px rgb(218, 218, 218);
+    border-radius: 15px;
+    width: 90%; height: 180px;
+    margin-bottom: 20px;
+}
+.img{
+    height: 130px;
+}
+.ArtSize2{
+    background-color: white;
+    box-shadow: 0 0 10px rgb(218, 218, 218);
+    border-radius: 15px;
+    width: 90%; height: 180px;
+    margin-bottom: 20px;
+}
+.img2{
+    width: 100%; height: 130px;
+}
+.ArtSize3{
+    background-color: white;
+    box-shadow: 0 0 10px rgb(218, 218, 218);
+    border-radius: 15px;
+    width: 90%; height: 180px;
+    margin-bottom: 20px;
+}
+.img3{
+    width: 100%; height: 130px;
+}
+.MargLeft{
+    margin-left: 25px;
+}
+
+/*      Footer      */
+#Footer{
+    flex-direction: column;
+    height: auto;
+}
+.Footer1, .Footer2, .Footer3{
+    width: 100%;
+    padding-left: 20px;
+}
+.Footer2{
+    margin-left: 0; margin-right: 0;
+}
+.Margin{
+    margin: 0;
+}

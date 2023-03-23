@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+#BlocPage{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/*      Header      */
+#MainPage{
+    display: flex; align-items: center; justify-content: space-between;
+    margin: 30px 0 30px 0px;
+    padding: 5px; 
+}
+img{
+    width: 110px; height: 50px;
+}
+nav{
+    display: flex; justify-content: center; align-items: center;
+}
+nav a{
+    padding: 30px;
+    text-decoration: none;
+    color: black
+}
+nav a:hover{
+    border-top: 2px #0065fc solid ; padding-top: 35px;
+    color: #0065fc;
+}
+
+/*      Search Section      */
+h1{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.SearchP{
+    margin-top: 10px;
+}
+#ResearchBar{
+    height: 45px; width: 33%;
+    display: flex; justify-content: space-between; align-items: center;
+    border: 1px solid #f2f2f2; border-radius: 13px;
+}
+.IconMap{
+    height: 45px; width: 70px;
+    background-color: #f2f2f2;
+    display: flex; justify-content: center; align-items: center;
+    border-radius: 13px 0 0 13px;
+}
+.Research{
+    height: 45px; width: 100%;
+    padding-left: 15px;
+    color: black;
+    font-weight: bold;
+    display: flex; justify-content: center; align-items: center;
+    border-color: #f2f2f2;
+    border: none;
+    border: 1px solid #f2f2f2;
+    
+}
+.ResearchButton{
+    height: 45px; width: 190px;
+    display: flex; justify-content: center; align-items: center;
+    color: white;
+    background-color: #0065fc;
+    border: none; border-radius: 0 13px 13px 0;
+    cursor: pointer;
+}
+.ResearchButton:hover{
+    font-weight: bold
+}
+.ResearchIcon{
+    display: none;
+}
+
+/*      Filters     */
+#FilterSec{
+    display: flex;  align-items: center;
+    margin-top: 20px; margin-bottom: 10px;
+}
+h3{
+    margin-left: 5px; margin-right: 30px;
+    font-weight: 600;
+}
+.Filters{
+    display: flex; flex-wrap: wrap;
+}
+.Filter{
+    border: 2px #f2f2f2 solid; border-radius: 30px;
+    height: 43px;
+    margin-right: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: space-between;
+}
+.Filter:hover{
+    transform: scale(1.1);
+    background-color: #f2f2f2;
+}
+.FilterIcon{
+    height: 44px; width: 44px;
+    color: #0065fc;
+    background-color: #deebff;
+    border-radius: 25px;
+    padding: 14px;
+    margin-left: -2px;
+}
+.FilterText{
+    margin-left: 10px; margin-right: 20px;
+    align-items: center;
+}
+
+.IconInfo{
+    display: flex; align-items: center;
+    color: #0065fc;
+    font-size: small;
+}
+.InfoCercle{
+    height: 25px; width: 25px;
+    border: 1px #e1e0e0 solid; border-radius: 25px;
+    display: flex; justify-content: center; align-items: center; 
+    margin: 10px;
+}
+.Info{
+    display: flex; align-items: center;
+    margin-bottom: 10px;
+}
+
+#MainHéberg{
+    display: flex; justify-content: space-between;
+}
+
+/*      Hébergements        */
+#HébergMars{
+    border-radius: 13px;
+    background-color: #f2f2f2;
+    flex: 2;
+    height: 525px;
+    padding: 15px; margin-right: 15px;
+}
+.SecTitle{
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}  
+.Articles{
+    display: flex; justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Art{
+    background-color: white;
+    box-shadow: 0 0 16px rgb(192, 192, 192);
+    border-radius: 15px;
+    width: 30%; height: auto;
+    margin-bottom: 20px;
+}
+.ImgArt{
+    border-radius: 15px 15px 0 0;
+    width: 95%; height: 100px;
+    margin: 5px 5px 0 5px;
+    object-fit: cover;
+}
+.Location, .Night, .Stars{
+    margin: 5px 0 5px 15px;
+    font-size: 13px;
+}
+.blue_star{
+    color: #0065fc;
+}
+.gray_star{
+    color: rgb(190, 190, 190);
+}
+strong{
+    font-weight: 550;
+}
+.Art a:hover , .Art2 a:hover{
+    color: #0065fc;
+}
+.Plus{
+    margin-left: 20px; margin-top: 20px;
+}
+
+/*      Populaire       */
+#Popu{
+    border-radius: 13px;
+    background-color: #f2f2f2;
+    flex: 1;
+    height: 525px;
+    margin-left: 15px;
+    padding: 15px;
+}
+.Popu1{
+    display: flex; align-items: center; justify-content: space-between;
+    flex-direction: row;
+}
+.Art2{
+    background-color: white;
+    box-shadow: 0 0 16px rgb(192, 192, 192);
+    border-radius: 15px;
+    width: 93%; 
+    margin-bottom: 17px;
+}
+.Art2 a{
+    display: flex;
+}
+.ImgArt2{
+    border-radius: 15px 0 0 15px;
+    width: 40%; height: 120px;
+    margin: 4px 0 4px 4px;
+    object-fit: cover;
+}
+.Location2{
+    margin: 15px 0 7px 15px;
+    font-size: 13px;
+}
+.Night2{
+    margin: 10px 0 5px 15px;
+    font-size: 13px;
+}
+.Stars2{
+    margin: 35px 0 7px 15px;
+    font-size: 13px;
+}
+.black_star{
+    margin-right: 18px;
+}
+
+/*      Acitivités      */
+#ActiMars{
+    margin-top: 50px;
+}
+.ActiMars1{
+    display: flex; justify-content: space-between;
+}
+.ArtSize1{
+    height: 350px; width: 23%;
+    border-radius: 15px;
+    box-shadow: 0 0 16px rgb(192, 192, 192);
+}
+.ArtSize2{
+    height: 170px;
+    border-radius: 15px;
+    box-shadow: 0 0 16px rgb(192, 192, 192);
+}
+.ArtSize3{
+    height: 150px;
+    border-radius: 15px;
+    box-shadow: 0 0 16px rgb(192, 192, 192);
+}
+.ArtSize1 a:hover, .ArtSize2 a:hover, .ArtSize3 a:hover{
+    color: #0065fc;
+    font-weight: 600;
+}
+.Size2{
+    display: flex; justify-content: space-between;
+    width: 23%;
+    flex-direction: column;
+}
+.img{
+    height: 87%; width: 100%;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+.img2{
+    height: 73%; width: 100%;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+.img3{
+    height: 71%; width: 100%;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+.ActiP{
+    align-items: center;
+    margin: 10px 0 0 15px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.Plus{
+    font-weight: 600;
+}
+
+/*      Footer      */
+#Footer{
+    background-color: #f2f2f2;
+    height: 190px;
+    display: flex;
+    margin-top: 50px;
+    padding: 5px; padding-left: 15px;
+    align-items: baseline;
+}
+ul{
+    font-weight: 600;
+    list-style-type: none;
+    margin-top: 20px;
+    padding-left: 0;
+}
+li{
+    font-weight: 300;
+    margin: 15px 0 15px 0;
+}
+.lien{
+    font-weight: 400;
+    font-size: 15px;
+}
+.lien:hover{
+    color: #0065fc;
+    font-weight: 600;
+}
+.Footer1{
+    width: 33%;
+    padding-left: 20px;
+}
+.Footer2{
+    width: 33%;
+}
+
+.Margin{
+    margin: 30px;
+}

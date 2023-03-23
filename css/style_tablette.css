@@ -1,0 +1,50 @@
+
+/*      Search Bar      */
+#ResearchBar{
+    width: 45%;
+}
+
+/*      Filters     */
+#FilterSec{
+    flex-wrap: wrap;
+}
+
+#MainHéberg{
+    display: flex; flex-direction: column;
+}
+
+/*      Hébergements        */
+#HébergMars{
+    width: 96%;
+}
+
+/*      Populaire       */
+#Popu{
+    width: 96%;
+    margin: 20px 15px 0 0;
+}
+.Art2{
+    width: 30%;
+}
+.Art2 a{
+    display: flex; flex-direction: column;
+}
+.ImgArt2{
+    border-radius: 15px 15px 0 0;
+    width: 96%; height: 115px;
+    margin: 5px 5px 0 5px;
+}
+.Stars2{
+    margin-top: 0;
+}
+.ActiP{
+    margin: 2px 0 0 15px;
+}
+
+/*      Footer      */
+.Footer1{
+    width: 35%;
+}
+.MiddleFooter{
+    width: 30%;
+}
